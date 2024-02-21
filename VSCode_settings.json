@@ -1,0 +1,17 @@
+{
+    "workbench.colorTheme": "Tokyo Night",
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.4,
+    "explorer.compactFolders": false,
+    "editor.rulers": [100],
+    "editor.fontFamily": "JetBrains Mono",
+    "symbols.hidesExplorerArrows": false,
+    "workbench.iconTheme": "symbols",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.location": "top",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false
+}
