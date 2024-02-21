@@ -1,2 +1,36 @@
-src = "~/.tmux.conf"
+#src = "~/.tmux.conf"
 
+## Config - Tmux - Shortcut
+
+#Reloading pre-set
+bind r source-file ~/.tmux.conf
+
+#Remap base tmux prefix
+unbind C-b
+set-option -g prefix C-a
+bind-key C-a send-prefix
+
+#Creating panels binds
+unbind '"'
+unbind %
+bind + split-window -h
+bind - split-window -v
+
+#Switching panels
+bind -n M-Left select-pane -L
+bind -n M-Right select-pane -R
+bind -n M-Up select-pane -U
+bind -n M-Down select-pane -D
+
+#Free Mouse-Motion Enable
+set -g mouse on
+
+##Styling
+
+#panel-borders
+set -g pane-border-style 'fg=colour2'
+set -g pane-active-border-style 'fg=colour1'
+
+#status-bar
+set -g status-position bottom
+set -g status-style 'fg=colour1'
